@@ -19,5 +19,5 @@ jobs:
           python-version: "3.9"
       - name: Run Flake8
         run: |
-          pip install -r requirements.txt
+          pip install -r dev-requirements.txt
           flake8
